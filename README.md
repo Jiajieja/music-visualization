@@ -3,6 +3,8 @@ Individual Project of Peter on 2023-2024
 
 Supervisor is Dr.Robert
 
+Added two mp3 files to serve as test audio for this code
+
 The Demo.py adds easy audio loading and extraction of Chroma features, as well as adding visual triangle mapping hierarchical slices.However, the ability to plot spectral plots had no effect, so it was removed from Demo2.py
 <img width="375" alt="image" src="https://github.com/user-attachments/assets/b6c2755c-3806-4c04-b65e-4786bb137047">
 <img width="1198" alt="image" src="https://github.com/user-attachments/assets/52e291c6-875d-4da6-9d61-ae124f8f5673">
