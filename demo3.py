@@ -129,10 +129,11 @@ def my_custom_visualiser(*, features, position, **kwargs):
 
 # 初始化并运行 WebApp
 app = WebApp(verbose=True)  # 启用回调信息
-app.use_chroma_features(600)  # 设置时间分辨率
+app.use_chroma_features(1000)  # 设置时间分辨率
 app.register_visualiser('Chroma Bars', ['chroma-features'], my_custom_visualiser)
 app.init(
-    figure_height=500,  # 指定图形尺寸
+    figure_width=1200,  # 指定图形尺寸
+    figure_height=700,  # 指定图形尺寸
     audio_file=audio_path  # 初始加载的音频文件
 )
 app.run(debug=False, port=8050)  # 在调试模式下运行并指定端口
