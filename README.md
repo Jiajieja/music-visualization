@@ -1,5 +1,6 @@
 # music-flower
 Individual Project of Peter on 2023-2024
+
 Supervisor is Dr.Robert
 
 The Demo.py adds easy audio loading and extraction of Chroma features, as well as adding visual triangle mapping hierarchical slices.However, the ability to plot spectral plots had no effect, so it was removed from Demo2.py
